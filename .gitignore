@@ -8,6 +8,7 @@
 
 # testing
 /coverage
+/public/mock
 
 # next.js
 /.next/
