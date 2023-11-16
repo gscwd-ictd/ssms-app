@@ -13,12 +13,12 @@ import { SidebarHeader } from "./SidebarHeader";
 export const Sidebar: FunctionComponent = () => {
   return (
     <aside className="w-72 flex-shrink-0 border-r dark:border-r-zinc-700 dark:bg-dark-secondary">
-      <section className="mt-10 flex items-center justify-center">
+      {/* <section className="mt-10 flex items-center justify-center">
         <SidebarHeader />
-      </section>
+      </section> */}
 
-      <ul role="menu" className="space-y-2 px-4">
-        <SidebarItemsGroup header="HOME">
+      <ul role="menu" className="space-y-2 p-4">
+        <SidebarItemsGroup>
           <SidebarItem
             icon={<DashboardSidebarItemIcon />}
             targetPath="/dashboard"
